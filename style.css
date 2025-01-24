@@ -1,0 +1,111 @@
+body{
+    background: linear-gradient(#ffffff,#f2cbf3);
+}
+img {
+ 
+    width: 200px;
+    height:100px;
+    float: left;
+    }
+    .container {
+        display: flex;
+        align-items: left;
+        justify-content: left;
+      }
+    .text {
+        font-size: 13px;
+        padding-left: 15px;
+        padding-top: 0%;
+        float: left;
+      }
+    a{
+        color:#fff;
+        text-decoration:none;
+        font-size: 20px;
+    }
+    .clr{
+        clear:both;
+    }
+    h1{
+        font-size: 35px;
+    }
+    p{
+        font-size:20px;
+        font-style: italic;
+    }
+    ul{
+        padding:0;
+    }
+    #nav{
+        height:50px;
+        width:1450px;
+        background:#04669e;
+    }
+    #nav ul{
+        padding-top:15px;
+        padding-left:30px;
+    }
+    #nav li{
+        list-style:none;
+        float:left;
+        padding-right:40px;
+    }
+    #nav .active{
+        font-weight:bold;
+        color:#000;
+    }
+    #main{
+        float:left;
+        width:50%;
+    }
+    .services a{
+        background:#666;
+        padding:10px;
+    }
+    .services li{
+        border-bottom:2px #666 dashed;
+        padding-bottom:20px;
+    }
+    .tunnel {
+        display: grid;
+        align-items: center; 
+        column-gap: 5px;
+       }
+    .mySlides {
+        display:none;
+        align-items: middle;
+    }
+    w3content{
+        align-items: middle;
+    }
+    .para {
+        font-size: 70px;
+        padding-right: 15px;
+        float: left;
+    }
+    #footer{
+        text-align:center;
+        padding:5px;
+        background:#666;
+        margin-top: 30px;
+    }
+    .google-map {
+        padding-bottom: 5%;
+        
+      }
+      
+      .google-map iframe {
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: absolute;
+      }
+      .textbox {
+        width: 140px;
+        height: 42px;
+        padding: 10px -10px 10px 10px;
+        border: 2px solid rgb(217, 136, 241);
+        margin: 0;
+    }
+   
